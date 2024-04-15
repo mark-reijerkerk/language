@@ -32,7 +32,7 @@ setup(
     url="https://github.com/google-research/language",
     license="Apache 2.0",
     install_requires=[
-        "tensorflow-gpu~=1.15.0",
+        "tensorflow-gpu>=1.15,<2.13",
     ],
     extras_require={
         "consistent-zero-shot-nmt": [
